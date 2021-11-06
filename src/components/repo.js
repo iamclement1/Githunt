@@ -5,18 +5,18 @@ import { Button } from "@chakra-ui/button";
 import { InfoOutlineIcon, StarIcon } from "@chakra-ui/icons";
 
 
-export function Repo () {
+export function Repo (props) {
     return (
-        <Box borderWidth={1} bg="white" p='15px' rounded='5px' mt='20px'>
-            <Flex mb='15px'>
+        <Box borderWidth={1} bg="white" p='15px' rounded='5px' mt='20px' alignItems='center'>
+            <Flex flex={1} flexDir='row'>
                 <Image src='../avatar.svg' w={'35px'} h={'35px'} rounded='5px' />
-
                 <Box ml='10px'>
                     <Heading fontSize='16px'>iamclement</Heading>
                     <Text fontSize="13px">View Profile</Text>
                 </Box>
-            </Flex>
 
+            </Flex>
+            
             <Box mb='15px'>
                 <Box mb='10px'>
                     <Heading as='a' href='https://github.com/iamclement1/Githunt.git' target='_blank' color='purple.700' fontSize='19px'>GitHunt</Heading>

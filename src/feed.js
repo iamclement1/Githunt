@@ -32,7 +32,7 @@ export function Feed () {
             </SimpleGrid>
 
             <Flex alignItems='center' justifyContent='center' my='20px'>
-                <Button colorScheme='blue'>Load next group</Button>
+                <Button colorScheme='blue'>Load next </Button>
             </Flex>
         </Box>
     )
