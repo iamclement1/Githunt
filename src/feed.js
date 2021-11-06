@@ -1,6 +1,7 @@
 import React from 'react'
-import { Box } from "@chakra-ui/layout";
+import { Box, SimpleGrid } from "@chakra-ui/layout";
 import { PageHeader } from './components/page-header';
+import { Button } from '@chakra-ui/button';
 import { Flex } from '@chakra-ui/react';
 import { GroupTitle } from './components/group-title';
 import { Filter } from './components/filter';
@@ -18,9 +19,21 @@ export function Feed () {
                 <Filter />
             </Flex>
 
-            <Box>
+            <SimpleGrid columns={3} spacing='15px'>
                 <Repo />
-            </Box>
+                <Repo />
+                <Repo />
+                <Repo />
+                <Repo />
+                <Repo />
+                <Repo />
+                <Repo />
+                <Repo />
+            </SimpleGrid>
+
+            <Flex alignItems='center' justifyContent='center' my='20px'>
+                <Button colorScheme='blue'>Load next group</Button>
+            </Flex>
         </Box>
     )
 }

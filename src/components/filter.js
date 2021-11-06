@@ -4,8 +4,7 @@ import React from "react";
 import { Select } from "@chakra-ui/select";
 import { Menu, MenuButton, MenuItem, MenuList } from "@chakra-ui/menu";
 import { Button } from "@chakra-ui/button";
-import { ChevronDownIcon } from "@chakra-ui/icons";
-import { HamburgerIcon, DragHandleIcon } from "@chakra-ui/icons";
+import { HamburgerIcon, DragHandleIcon, ChevronDownIcon } from "@chakra-ui/icons";
 
 export function Filter () {
     return (
