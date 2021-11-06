@@ -3,6 +3,8 @@ import { Box } from "@chakra-ui/layout";
 import { PageHeader } from './components/page-header';
 import { Flex } from '@chakra-ui/react';
 import { GroupTitle } from './components/group-title';
+import { Filter } from './components/filter';
+import { Repo } from './components/repo';
 
 
 
@@ -13,8 +15,12 @@ export function Feed () {
 
             <Flex alignItems='center' justifyContent='space-between'>
                 <GroupTitle />
-                <Box></Box>
+                <Filter />
             </Flex>
+
+            <Box>
+                <Repo />
+            </Box>
         </Box>
     )
 }

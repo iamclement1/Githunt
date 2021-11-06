@@ -3,6 +3,7 @@ import { Flex, Stack} from "@chakra-ui/layout";
 import { Button } from "@chakra-ui/button";
 import { Brand } from "./brand";
 
+
 export function PageHeader () {
     return (
         <Flex justifyContent="space-between" alignItems='center' pt='15px'>
